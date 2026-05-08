@@ -1,0 +1,14 @@
+# Distance covered in meters
+distance = 490
+
+# Time taken in minutes
+time = 7
+
+# Convert minutes into seconds
+time_in_seconds = time * 60
+
+# Calculate speed
+speed = distance / time_in_seconds
+
+# Print the result without decimal point
+print(int(speed))
