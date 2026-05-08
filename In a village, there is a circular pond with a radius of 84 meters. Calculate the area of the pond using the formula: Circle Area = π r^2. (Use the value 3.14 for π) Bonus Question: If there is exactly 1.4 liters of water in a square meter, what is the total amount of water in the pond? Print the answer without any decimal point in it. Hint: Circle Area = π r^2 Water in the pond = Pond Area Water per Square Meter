@@ -1,0 +1,20 @@
+# Radius of the pond
+radius = 84
+
+# Value of pi
+pi = 3.14
+
+# Calculate area of the pond
+area = pi * radius * radius
+
+# Water per square meter
+water_per_sq_meter = 1.4
+
+# Total water in the pond
+total_water = area * water_per_sq_meter
+
+# Print results
+print("Area of the pond:", area, "square meters")
+
+# Print total water without decimal point
+print("Total water in the pond:", int(total_water), "liters")
