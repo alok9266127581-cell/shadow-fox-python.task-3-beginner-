@@ -1,0 +1,5 @@
+def format_value(number, specifier):
+    return format(number, specifier)
+
+result = format_value(145, 'o')
+print(result)
